@@ -4,10 +4,14 @@
 		<relationship name="projectSettings">
 			<destination>{dfb6dba6-3bad-47be-b297-bf3955547d16}</destination>
 		</relationship>
+		<relationship name="changelist">
+			<destination>{78d71845-6750-4ada-82f3-4ac93be66b21}</destination>
+		</relationship>
 	</object>
 	<object class="ProjectSettings" id="{dfb6dba6-3bad-47be-b297-bf3955547d16}">
 		<relationship name="activePlatform">
 			<destination>{e6c95b18-6365-4288-8312-0bb09c52f0ca}</destination>
 		</relationship>
 	</object>
+	<object class="WorkspaceChangelist" id="{78d71845-6750-4ada-82f3-4ac93be66b21}" />
 </objects>
