@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{913b526a-aebb-4b38-9142-cdb4c331124b}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../Neon-Night-Studio/Assets/Plugins/FMOD/FmodBuild</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{3e86f725-9abd-48b0-ba43-20c2bdb72929}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{4efee340-27dd-45e1-a836-8554693d5d68}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{70b5d740-7fff-4eb8-883c-5f51fe5f9979}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{20e4cf09-d2ae-4a56-ab2f-a2e4bd9ba530}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{9e89380a-54e3-4bed-8ecb-4c056ca5b061}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{f6b5f742-7382-45be-98be-1b4159f356dd}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{b62424da-254f-400f-a938-c5d48ed35c63}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{154365ce-befa-4683-941e-45eb66d5557f}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{9cee679f-b644-4bb0-8553-866c3eeb88b7}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{f0570794-1bf8-427f-87a4-b72e93eb6d5e}</destination>
+		</relationship>
+	</object>
+</objects>
