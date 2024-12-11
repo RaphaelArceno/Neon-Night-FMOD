@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{913b526a-aebb-4b38-9142-cdb4c331124b}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../Neon-Night-Studio/Assets/Plugins/FMOD/FmodBuild</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{3e86f725-9abd-48b0-ba43-20c2bdb72929}</destination>
 		</relationship>
