@@ -129,7 +129,10 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4723f826-d436-4349-a8b1-5a52c9ea9581}">
 		<relationship name="effects">
+			<destination>{fa391f80-c258-4e11-b753-8f2a413297b4}</destination>
 			<destination>{aaf37bd7-dabe-4c1f-9773-4414f62087d2}</destination>
+			<destination>{879ffe72-d92d-4ece-ada6-086329efa3c6}</destination>
+			<destination>{c09031fa-4d9b-4960-a181-c655fef6411f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4aef5516-ce04-436d-95a5-207de7d863f0}" />
@@ -140,6 +143,63 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d5d726c3-8036-4bfe-b9cd-f87f0acea6ae}" />
+	<object class="SFXReverbEffect" id="{fa391f80-c258-4e11-b753-8f2a413297b4}">
+		<property name="decayTime">
+			<value>3200</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>50</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-23</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>64</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{aaf37bd7-dabe-4c1f-9773-4414f62087d2}" />
+	<object class="CompressorEffect" id="{879ffe72-d92d-4ece-ada6-086329efa3c6}">
+		<property name="threshold">
+			<value>-29.5</value>
+		</property>
+		<property name="ratio">
+			<value>2.79999995</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>90</value>
+		</property>
+		<property name="gain">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{c09031fa-4d9b-4960-a181-c655fef6411f}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="filterTypeA">
+			<value>6</value>
+		</property>
+		<property name="filterTypeE">
+			<value>3</value>
+		</property>
+		<property name="frequencyA">
+			<value>83.5422211</value>
+		</property>
+		<property name="frequencyE">
+			<value>5841.67676</value>
+		</property>
+		<property name="qualityA">
+			<value>1.44805849</value>
+		</property>
+		<property name="qualityE">
+			<value>0.655046582</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{fd6d6449-350e-4664-bc9d-dd59d39a8bb8}" />
 </objects>
