@@ -133,7 +133,7 @@
 	</object>
 	<object class="SingleSound" id="{b4d33196-45a6-4a89-baf7-462a3f42a9d1}">
 		<property name="length">
-			<value>0.25</value>
+			<value>0.09375</value>
 		</property>
 		<property name="volume">
 			<value>3</value>
@@ -148,7 +148,7 @@
 	</object>
 	<object class="SingleSound" id="{5081ccc0-f2bb-449d-bfdc-457c3f46f604}">
 		<property name="length">
-			<value>0.3046875</value>
+			<value>0.09375</value>
 		</property>
 		<property name="volume">
 			<value>3</value>
@@ -163,7 +163,7 @@
 	</object>
 	<object class="SingleSound" id="{4a4eb6cc-bd3a-4dc5-8d69-37e8f615b46e}">
 		<property name="length">
-			<value>0.25</value>
+			<value>0.09375</value>
 		</property>
 		<property name="volume">
 			<value>3</value>
@@ -281,6 +281,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{420d167a-a69a-4682-968c-5ee6a908e62f}">
 		<relationship name="effects">
+			<destination>{b23bb9dd-87c3-46fe-9222-cfb7992543bc}</destination>
 			<destination>{e25c83f9-6816-41e3-b493-45251a03b059}</destination>
 			<destination>{adea2ec9-b773-4634-81d4-6d4d5b31e464}</destination>
 		</relationship>
@@ -339,6 +340,14 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{749eaddf-6161-48e7-a6ef-dcf22be1624d}" />
+	<object class="GainEffect" id="{b23bb9dd-87c3-46fe-9222-cfb7992543bc}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e5d6b408-d754-408c-82f5-435aeecd41f4}</destination>
+		</relationship>
+	</object>
 	<object class="SFXReverbEffect" id="{e25c83f9-6816-41e3-b493-45251a03b059}">
 		<property name="earlyDelay">
 			<value>0</value>
@@ -351,4 +360,27 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{adea2ec9-b773-4634-81d4-6d4d5b31e464}" />
+	<object class="ADSRModulator" id="{e5d6b408-d754-408c-82f5-435aeecd41f4}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>gain</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>260</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 </objects>
