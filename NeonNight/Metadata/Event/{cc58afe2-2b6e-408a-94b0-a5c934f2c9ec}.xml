@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{cc58afe2-2b6e-408a-94b0-a5c934f2c9ec}">
 		<property name="name">
-			<value>Combo Hit</value>
+			<value>Combo</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{3c0d2b19-da46-41ad-9a82-6b61f9113e98}</destination>
+			<destination>{752e31c8-34df-459b-b533-5bebdad1b221}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{4732d1c3-5f42-448d-8e1a-2bd726b7e956}</destination>
@@ -42,7 +42,7 @@
 			<destination>{eb52e31d-d4fa-4489-a937-143ec61a66bd}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{85e33c5a-78d6-473c-903a-6180dec42a08}</destination>
+			<destination>{1e08f75f-5db8-4796-a014-b701a25c358c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{4732d1c3-5f42-448d-8e1a-2bd726b7e956}">

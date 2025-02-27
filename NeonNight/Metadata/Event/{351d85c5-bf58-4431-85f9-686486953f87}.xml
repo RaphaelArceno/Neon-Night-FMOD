@@ -33,7 +33,7 @@
 			<destination>{828e993e-79f5-432f-8282-ce3f997a22c7}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{85e33c5a-78d6-473c-903a-6180dec42a08}</destination>
+			<destination>{1e08f75f-5db8-4796-a014-b701a25c358c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{be442c1e-2a92-4639-a90a-ec0facfdf61f}">
@@ -116,7 +116,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5bca1731-0ab5-41f2-8b83-f192b2354499}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -192,6 +192,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{41f828d4-6052-4396-8335-6f8d9558ad33}">
 		<relationship name="effects">
+			<destination>{f06903f5-c863-4e17-a2cd-ef8ab2633e84}</destination>
 			<destination>{1dda8f09-873f-45d7-8965-26e1db6807b5}</destination>
 			<destination>{029a2052-afcd-4023-8806-6af6d15443b4}</destination>
 		</relationship>
@@ -282,11 +283,30 @@
 	<object class="MixerBusEffectChain" id="{420d167a-a69a-4682-968c-5ee6a908e62f}">
 		<relationship name="effects">
 			<destination>{b23bb9dd-87c3-46fe-9222-cfb7992543bc}</destination>
-			<destination>{e25c83f9-6816-41e3-b493-45251a03b059}</destination>
 			<destination>{adea2ec9-b773-4634-81d4-6d4d5b31e464}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b6e3be88-79db-4258-8767-e8868040ddf1}" />
+	<object class="SFXReverbEffect" id="{f06903f5-c863-4e17-a2cd-ef8ab2633e84}">
+		<property name="decayTime">
+			<value>850</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>0</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-6.5</value>
+		</property>
+		<property name="highCut">
+			<value>1050</value>
+		</property>
+		<property name="wetLevel">
+			<value>-8.5</value>
+		</property>
+	</object>
 	<object class="CompressorEffect" id="{1dda8f09-873f-45d7-8965-26e1db6807b5}">
 		<property name="threshold">
 			<value>-29.5</value>
@@ -347,17 +367,6 @@
 		<relationship name="modulators">
 			<destination>{e5d6b408-d754-408c-82f5-435aeecd41f4}</destination>
 		</relationship>
-	</object>
-	<object class="SFXReverbEffect" id="{e25c83f9-6816-41e3-b493-45251a03b059}">
-		<property name="earlyDelay">
-			<value>0</value>
-		</property>
-		<property name="lateDelay">
-			<value>0</value>
-		</property>
-		<property name="highCut">
-			<value>460</value>
-		</property>
 	</object>
 	<object class="MixerBusFader" id="{adea2ec9-b773-4634-81d4-6d4d5b31e464}" />
 	<object class="ADSRModulator" id="{e5d6b408-d754-408c-82f5-435aeecd41f4}">
