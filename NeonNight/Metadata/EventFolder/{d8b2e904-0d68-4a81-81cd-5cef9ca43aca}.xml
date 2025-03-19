@@ -5,7 +5,7 @@
 			<value>Slicer</value>
 		</property>
 		<relationship name="folder">
-			<destination>{93fc5a9b-19a1-47ce-ac0f-487dbfa19921}</destination>
+			<destination>{341ff38e-1736-483c-b5f8-df95b52a8a1b}</destination>
 		</relationship>
 	</object>
 </objects>

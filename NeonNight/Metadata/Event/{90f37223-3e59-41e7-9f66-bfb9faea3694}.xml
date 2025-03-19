@@ -56,7 +56,7 @@
 			<destination>{6533ca52-d67f-476e-b2e0-34cae2e45ed6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{bc28c3bd-e4a4-4b2d-9fef-f46025bb2f7b}</destination>
+			<destination>{543be1ad-37aa-4291-8816-9ff7f71ae9ec}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7184ed49-f00b-4327-9b47-8bbeff0d86d2}" />
@@ -116,6 +116,9 @@
 	</object>
 	<object class="MixerBusFader" id="{524efb0f-651b-43cf-ba06-c8ffab5e5e13}" />
 	<object class="SFXReverbEffect" id="{4d54ab1e-26de-4251-b329-5a9ff88c2672}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="decayTime">
 			<value>1400</value>
 		</property>
@@ -146,10 +149,10 @@
 			<value>8</value>
 		</property>
 		<property name="frequencyA">
-			<value>1427.7749</value>
+			<value>720.641174</value>
 		</property>
 		<property name="gainA">
-			<value>-15</value>
+			<value>-17.0689659</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c0b2965d-2d4f-4dfa-9018-60b5ad964c7c}" />

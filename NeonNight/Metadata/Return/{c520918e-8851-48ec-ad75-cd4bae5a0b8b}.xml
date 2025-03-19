@@ -19,12 +19,24 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4be3b6fc-2a24-43a5-a1ce-9a12fef1049a}">
 		<relationship name="effects">
-			<destination>{624db28f-beab-496c-a8e4-2e09d302aa7e}</destination>
+			<destination>{aa08d1bf-840d-49ca-8e32-ae0bc7c24742}</destination>
 			<destination>{7fbd4662-803b-42bf-8f40-cdf7e0d5d34d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{863e9ec8-cff0-4e70-a4cb-0b364cb26d6d}" />
-	<object class="SFXReverbEffect" id="{624db28f-beab-496c-a8e4-2e09d302aa7e}">
+	<object class="SFXReverbEffect" id="{aa08d1bf-840d-49ca-8e32-ae0bc7c24742}">
+		<property name="decayTime">
+			<value>2000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>0</value>
+		</property>
+		<property name="lateDelay">
+			<value>51</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-11.5</value>
+		</property>
 		<property name="wetLevel">
 			<value>0</value>
 		</property>

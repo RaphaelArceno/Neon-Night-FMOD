@@ -5,7 +5,7 @@
 			<value>Slicer Hurt</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d8b2e904-0d68-4a81-81cd-5cef9ca43aca}</destination>
@@ -56,7 +56,7 @@
 			<destination>{40a3371b-84a0-4b2b-bec4-2f6af91cf4e8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{bc28c3bd-e4a4-4b2d-9fef-f46025bb2f7b}</destination>
+			<destination>{d525fc18-1edd-4a93-ae22-1d4917a359b2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{eaa2f548-db43-4e2a-9901-0cb2726fc3a5}" />
@@ -82,7 +82,11 @@
 			<destination>{398d10fe-2020-4683-acb6-a43c19858f8f}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{4d52bcfe-ade0-42a1-9b02-bbe9c1e22ca3}" />
+	<object class="MultiSound" id="{4d52bcfe-ade0-42a1-9b02-bbe9c1e22ca3}">
+		<relationship name="sounds">
+			<destination>{59afb6f9-6632-4098-a239-e2fae987a400}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{c4434753-9cad-464a-83ae-973fe881cb4c}">
 		<relationship name="effects">
 			<destination>{b5969c1b-1a45-4271-83da-9fe5c298dbcc}</destination>
@@ -92,9 +96,26 @@
 	<object class="MixerBusEffectChain" id="{bc27c7dd-6d29-4660-9dab-21c2c907935c}">
 		<relationship name="effects">
 			<destination>{01caaa6e-2b7e-4eea-8298-6cfb3e15cee3}</destination>
+			<destination>{7a61d22f-dea8-4e06-85f7-5c2a96a0eaa1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1c6badbb-40e9-4276-a6b5-5b9a72592bc6}" />
+	<object class="EventSound" id="{59afb6f9-6632-4098-a239-e2fae987a400}">
+		<relationship name="event">
+			<destination>{032f4e42-4920-420d-9a6b-d415af1f8d9a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{b5969c1b-1a45-4271-83da-9fe5c298dbcc}" />
 	<object class="MixerBusFader" id="{01caaa6e-2b7e-4eea-8298-6cfb3e15cee3}" />
+	<object class="SpatialiserEffect" id="{7a61d22f-dea8-4e06-85f7-5c2a96a0eaa1}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>20</value>
+		</property>
+		<property name="minimumExtent">
+			<value>270</value>
+		</property>
+	</object>
 </objects>

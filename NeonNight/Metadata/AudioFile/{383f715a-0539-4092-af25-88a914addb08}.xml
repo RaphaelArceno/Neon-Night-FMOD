@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{383f715a-0539-4092-af25-88a914addb08}">
 		<property name="assetPath">
-			<value>sfx_player_movement_step_2.wav</value>
+			<value>SFX/Movement/sfx_player_movement_step_2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
