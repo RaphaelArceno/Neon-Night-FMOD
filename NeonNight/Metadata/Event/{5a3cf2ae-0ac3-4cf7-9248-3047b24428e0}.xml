@@ -65,7 +65,11 @@
 			<destination>{b1fd9386-748f-496c-a215-963ad207ff63}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{359c0c53-feec-4d89-9eac-2d0e9f15652c}" />
+	<object class="EventAutomatableProperties" id="{359c0c53-feec-4d89-9eac-2d0e9f15652c}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{d6c4c1b7-1a16-4dfe-b473-16d59aca7788}" />
 	<object class="MarkerTrack" id="{b8c16ba5-c4b1-4188-b777-ef05d5f2c0f7}" />
 	<object class="GroupTrack" id="{c7823584-350e-474b-a7fd-6c39a247b698}">
@@ -299,8 +303,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4723f826-d436-4349-a8b1-5a52c9ea9581}">
 		<relationship name="effects">
-			<destination>{fa391f80-c258-4e11-b753-8f2a413297b4}</destination>
-			<destination>{0aee87ca-62ab-408a-a92f-20b1485d19d2}</destination>
 			<destination>{879ffe72-d92d-4ece-ada6-086329efa3c6}</destination>
 			<destination>{8ce5c7d2-de30-4f49-829e-6f3811a4a336}</destination>
 			<destination>{aaf37bd7-dabe-4c1f-9773-4414f62087d2}</destination>
@@ -360,67 +362,6 @@
 			<destination>{d9f4aaf9-0839-4d2b-92d1-b18da714835d}</destination>
 			<destination>{ff8bc5bf-fbf6-4e1d-a2ad-84baf0d6f4f6}</destination>
 		</relationship>
-	</object>
-	<object class="SFXReverbEffect" id="{fa391f80-c258-4e11-b753-8f2a413297b4}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-		<property name="decayTime">
-			<value>3200</value>
-		</property>
-		<property name="earlyDelay">
-			<value>0</value>
-		</property>
-		<property name="lateDelay">
-			<value>50</value>
-		</property>
-		<property name="HFDecayRatio">
-			<value>30</value>
-		</property>
-		<property name="lowShelfGain">
-			<value>-23</value>
-		</property>
-		<property name="highCut">
-			<value>2600</value>
-		</property>
-		<property name="earlyLateMix">
-			<value>64</value>
-		</property>
-		<property name="wetLevel">
-			<value>-18</value>
-		</property>
-	</object>
-	<object class="SFXReverbEffect" id="{0aee87ca-62ab-408a-a92f-20b1485d19d2}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
-		<property name="decayTime">
-			<value>2600</value>
-		</property>
-		<property name="earlyDelay">
-			<value>0</value>
-		</property>
-		<property name="lateDelay">
-			<value>48</value>
-		</property>
-		<property name="HFReference">
-			<value>20</value>
-		</property>
-		<property name="HFDecayRatio">
-			<value>100</value>
-		</property>
-		<property name="lowShelfGain">
-			<value>-36</value>
-		</property>
-		<property name="highCut">
-			<value>3000</value>
-		</property>
-		<property name="wetLevel">
-			<value>0</value>
-		</property>
-		<property name="dryLevel">
-			<value>-80</value>
-		</property>
 	</object>
 	<object class="CompressorEffect" id="{879ffe72-d92d-4ece-ada6-086329efa3c6}">
 		<property name="threshold">
