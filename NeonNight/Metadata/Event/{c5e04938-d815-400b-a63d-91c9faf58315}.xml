@@ -130,7 +130,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{03bbedc9-68b4-45f7-aa91-168a0857e7d1}">
 		<property name="volume">
-			<value>-19.5</value>
+			<value>-13.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -157,7 +157,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{36295e46-d336-4423-be81-9c1cc1fadc74}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -182,7 +182,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{88dc8820-edf8-4193-b468-e8ab6504ba20}">
 		<property name="volume">
-			<value>-9.5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
@@ -207,7 +207,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d0114b32-b273-4872-82d3-a618ccc13490}">
 		<property name="volume">
-			<value>-42</value>
+			<value>-36</value>
 		</property>
 		<property name="name">
 			<value>Audio 4</value>
@@ -291,10 +291,10 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>10</value>
+			<value>20</value>
 		</property>
 		<property name="minimumExtent">
-			<value>180</value>
+			<value>270</value>
 		</property>
 	</object>
 	<object class="LoudnessMeter" id="{442e2969-e0a8-44f7-aa6b-1f00cd4355e1}" />

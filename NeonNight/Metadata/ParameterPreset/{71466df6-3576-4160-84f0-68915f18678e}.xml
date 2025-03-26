@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{71466df6-3576-4160-84f0-68915f18678e}">
+		<property name="name">
+			<value>InCombat</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20e4cf09-d2ae-4a56-ab2f-a2e4bd9ba530}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b853fb29-ba22-4400-bebe-59c6462c04d1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b853fb29-ba22-4400-bebe-59c6462c04d1}">
+		<property name="maximum">
+			<value>255</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>255</value>
+		</property>
+		<property name="seekSpeed">
+			<value>320</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
