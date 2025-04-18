@@ -99,13 +99,17 @@
 	<object class="MixerBusPanner" id="{cb4d655c-eda2-45ae-8b77-1f38cf4b3812}" />
 	<object class="MixerBusEffectChain" id="{19cb9f3f-11dd-428e-8631-f70695923096}">
 		<relationship name="effects">
+			<destination>{0e68a8ee-f917-45e7-ba61-fbf59b7705c8}</destination>
 			<destination>{33d683fc-8e37-4905-8e25-c0d99a7db285}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{180f7d15-e775-4c45-8581-05f4bc7e050d}" />
 	<object class="MultiSound" id="{65d4b3d4-15eb-4979-9fe7-3c833c5805bb}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="pitch">
-			<value>6</value>
+			<value>-6</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{352f83a5-fe27-42e5-b99e-f1e9c73df176}</destination>
@@ -215,6 +219,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c37a2f87-90db-4757-b6af-5a2da255db63}" />
+	<object class="CompressorEffect" id="{0e68a8ee-f917-45e7-ba61-fbf59b7705c8}">
+		<property name="threshold">
+			<value>-21</value>
+		</property>
+		<property name="ratio">
+			<value>3</value>
+		</property>
+		<property name="attackTime">
+			<value>7.4000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>80</value>
+		</property>
+		<property name="gain">
+			<value>0.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{33d683fc-8e37-4905-8e25-c0d99a7db285}" />
 	<object class="ADSRModulator" id="{352f83a5-fe27-42e5-b99e-f1e9c73df176}">
 		<property name="nameOfPropertyBeingModulated">
@@ -224,7 +245,7 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>40</value>
+			<value>100</value>
 		</property>
 		<property name="attackShape">
 			<value>-1.00000048</value>
@@ -304,6 +325,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{508a628e-0ced-4f54-a0b8-2cf6a54c167f}">
+		<property name="startOffset">
+			<value>27.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ef09330b-cf8c-40b4-a3a4-974a81cd45bd}</destination>
 		</relationship>
