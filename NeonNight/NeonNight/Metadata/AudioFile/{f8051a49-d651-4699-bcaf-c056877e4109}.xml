@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f8051a49-d651-4699-bcaf-c056877e4109}">
+		<property name="assetPath">
+			<value>OrientationDay2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>71.441874999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b62424da-254f-400f-a938-c5d48ed35c63}</destination>
+		</relationship>
+	</object>
+</objects>

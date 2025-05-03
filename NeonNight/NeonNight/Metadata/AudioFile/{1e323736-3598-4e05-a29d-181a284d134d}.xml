@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1e323736-3598-4e05-a29d-181a284d134d}">
+		<property name="assetPath">
+			<value>generator-large-01-31429.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32.640000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b62424da-254f-400f-a938-c5d48ed35c63}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5808306d-5423-4b61-b435-2720d2e029b7}">
+		<property name="name">
+			<value>Combo</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20e4cf09-d2ae-4a56-ab2f-a2e4bd9ba530}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3b1d1351-9dcf-426d-943a-2a92d10113be}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3b1d1351-9dcf-426d-943a-2a92d10113be}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>8</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Multi</value>
+			<value>1st</value>
+			<value>2nd</value>
+			<value>3rd</value>
+			<value>4th</value>
+			<value>5th</value>
+			<value>6th</value>
+			<value>Break</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

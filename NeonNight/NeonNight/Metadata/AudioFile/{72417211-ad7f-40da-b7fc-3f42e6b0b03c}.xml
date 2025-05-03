@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{72417211-ad7f-40da-b7fc-3f42e6b0b03c}">
+		<property name="assetPath">
+			<value>vo_miscPack_Fu.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.33000000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b62424da-254f-400f-a938-c5d48ed35c63}</destination>
+		</relationship>
+	</object>
+</objects>

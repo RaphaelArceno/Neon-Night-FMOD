@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1744271f-de4b-4b41-857d-73bd8078320a}">
+		<property name="assetPath">
+			<value>ovERFWLRD_drums.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>109.71429166666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b62424da-254f-400f-a938-c5d48ed35c63}</destination>
+		</relationship>
+	</object>
+</objects>
