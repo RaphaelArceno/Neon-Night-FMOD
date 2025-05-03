@@ -5,7 +5,7 @@
 			<value>Oni Thunder</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ad0b02be-8abe-4f16-8e0e-8b73d42d465a}</destination>
@@ -437,6 +437,7 @@
 			<destination>{6ee85ec8-f630-4663-8162-0b3d6e471209}</destination>
 			<destination>{8aa73b33-860a-4b60-8a61-fd2cfc91c995}</destination>
 			<destination>{3a1bd720-5262-4724-8d82-47fbbd375a46}</destination>
+			<destination>{f1d290a1-d7b4-4b16-969f-cd049f79cde3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{36e707fd-a112-4f86-bfb3-0a6c298363e7}" />
@@ -744,6 +745,26 @@
 	</object>
 	<object class="MixerBusFader" id="{8aa73b33-860a-4b60-8a61-fd2cfc91c995}" />
 	<object class="LoudnessMeter" id="{3a1bd720-5262-4724-8d82-47fbbd375a46}" />
+	<object class="SpatialiserEffect" id="{f1d290a1-d7b4-4b16-969f-cd049f79cde3}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>5</value>
+		</property>
+		<property name="minimumExtent">
+			<value>180</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{6e16fe57-7b40-437c-bcbe-2ed036efe73f}">
 		<property name="position">
 			<value>1.28125</value>

@@ -93,7 +93,7 @@
 	<object class="MixerBusPanner" id="{79b37662-d20d-4138-babb-258ba08356a0}" />
 	<object class="EventSound" id="{6547f045-4596-4ba2-afd9-2f3eed2f15cd}">
 		<property name="length">
-			<value>0.01953125</value>
+			<value>0.023</value>
 		</property>
 		<relationship name="event">
 			<destination>{ade714f8-2963-4e01-a040-f7c1ac1ee785}</destination>
@@ -118,7 +118,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>0.1953125</value>
+			<value>0.024</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{74c83c40-5cd3-4af5-94bc-0649946b2dab}</destination>
@@ -132,7 +132,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>0.134765625</value>
+			<value>0.036000000000000004</value>
 		</property>
 		<property name="triggerProbabilityEnabled">
 			<value>true</value>

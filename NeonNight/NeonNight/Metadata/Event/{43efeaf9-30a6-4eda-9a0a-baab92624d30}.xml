@@ -5,7 +5,7 @@
 			<value>Oni Thunder Strike</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f1602c89-b0e2-40cf-a950-0d42392c8153}</destination>
