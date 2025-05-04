@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{e055629b-98ba-4f2d-86fd-989ecbc57cb5}">
+		<property name="name">
+			<value>Tengu (Phase 1)</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6dcebbe0-5b5c-4499-bb55-d8998313bdf0}</destination>
+		</relationship>
+	</object>
+</objects>

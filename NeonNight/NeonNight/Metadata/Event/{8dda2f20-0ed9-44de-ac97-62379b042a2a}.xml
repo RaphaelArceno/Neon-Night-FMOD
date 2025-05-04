@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Event" id="{8dda2f20-0ed9-44de-ac97-62379b042a2a}">
+		<property name="name">
+			<value>Tengu Indicator</value>
+		</property>
+		<property name="outputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e055629b-98ba-4f2d-86fd-989ecbc57cb5}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{4412488a-aa85-4fbb-9b8d-6040bdd7a21e}</destination>
+		</relationship>
+		<relationship name="masterTrack">
+			<destination>{dee8e237-b05c-4aaf-8c59-b9df65b97d04}</destination>
+		</relationship>
+		<relationship name="mixerInput">
+			<destination>{0e2267cf-539e-4047-a581-ebcdf72ae7c7}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{7745ffb4-7aaf-476e-af52-25d64f7bb8cf}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{96a722bc-e185-4c05-b7a4-73ca577b3125}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{e14540cc-3432-4181-ab14-09d76c47e9d4}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{1e08f75f-5db8-4796-a014-b701a25c358c}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixer" id="{4412488a-aa85-4fbb-9b8d-6040bdd7a21e}">
+		<relationship name="masterBus">
+			<destination>{981b76f4-0819-4d89-8c61-15b039fbb61c}</destination>
+		</relationship>
+	</object>
+	<object class="MasterTrack" id="{dee8e237-b05c-4aaf-8c59-b9df65b97d04}">
+		<relationship name="mixerGroup">
+			<destination>{981b76f4-0819-4d89-8c61-15b039fbb61c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerInput" id="{0e2267cf-539e-4047-a581-ebcdf72ae7c7}">
+		<relationship name="effectChain">
+			<destination>{05960213-c53d-40b7-98cd-ae0147798c01}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{bc04d29e-2e15-488b-92fa-3c3c1f4d704d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d525fc18-1edd-4a93-ae22-1d4917a359b2}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{7745ffb4-7aaf-476e-af52-25d64f7bb8cf}" />
+	<object class="MarkerTrack" id="{96a722bc-e185-4c05-b7a4-73ca577b3125}" />
+	<object class="Timeline" id="{e14540cc-3432-4181-ab14-09d76c47e9d4}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
+	<object class="EventMixerMaster" id="{981b76f4-0819-4d89-8c61-15b039fbb61c}">
+		<relationship name="effectChain">
+			<destination>{a5a38588-31b7-4e56-bfb8-1e0a76a9b8a3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d3f4b212-fece-4335-be63-973224a1438a}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{4412488a-aa85-4fbb-9b8d-6040bdd7a21e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{05960213-c53d-40b7-98cd-ae0147798c01}">
+		<relationship name="effects">
+			<destination>{856cc025-29d9-4a72-95cb-821773342b35}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{bc04d29e-2e15-488b-92fa-3c3c1f4d704d}" />
+	<object class="MixerBusEffectChain" id="{a5a38588-31b7-4e56-bfb8-1e0a76a9b8a3}">
+		<relationship name="effects">
+			<destination>{bb412caa-e2c1-42ec-8df9-abc1b733f618}</destination>
+			<destination>{b52f7334-c2b2-4b06-8ccf-7170a3078af4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d3f4b212-fece-4335-be63-973224a1438a}" />
+	<object class="MixerBusFader" id="{856cc025-29d9-4a72-95cb-821773342b35}" />
+	<object class="MixerBusFader" id="{bb412caa-e2c1-42ec-8df9-abc1b733f618}" />
+	<object class="SpatialiserEffect" id="{b52f7334-c2b2-4b06-8ccf-7170a3078af4}">
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>270</value>
+		</property>
+	</object>
+</objects>

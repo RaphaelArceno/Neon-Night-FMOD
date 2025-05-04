@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerVCA" id="{ecba925a-4051-406b-ab9c-8d43e6e53bf4}">
+		<property name="name">
+			<value>Pause Macro</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{154365ce-befa-4683-941e-45eb66d5557f}</destination>
+		</relationship>
+	</object>
+</objects>
